@@ -42,5 +42,16 @@ No necesitas instalar ninguna dependencia, ya que es un sitio estático de HTML 
 
 O bien, puedes arrastrar directamente el archivo `index.html` a una pestaña abierta de tu navegador.
 
+## 🌿 Estructura de Ramas
+
+Este repositorio utiliza una estrategia de ramificación para organizar el desarrollo de nuevas funcionalidades:
+
+- **`main`**: Rama principal que contiene la versión estable y final del proyecto. Integra tanto la estructura base como todas las mejoras visuales tras la resolución de conflictos.
+- **`feature-mejora-estilo`**: Rama dedicada exclusivamente a la actualización estética. Aquí se implementaron:
+  - Fondo de gradiente tipo *mesh*.
+  - Efectos de *glassmorphism* (transparencias).
+  - Animaciones de entrada de elementos.
+  - Refinamiento de fuentes y espaciados.
+
 ## 📄 Notas adicionales
 Este proyecto fue creado como un ejemplo de flujo de trabajo profesional en Git, incluyendo el uso de ramas (`feature-mejora-estilo`), commits frecuentes y resolución manual de conflictos de fusión.
