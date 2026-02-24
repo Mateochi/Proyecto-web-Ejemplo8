@@ -41,6 +41,20 @@ header {
     text-align: center;
 }
 
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: var(--bg-card);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-md);
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
 main {
     padding: 20px;
 }
