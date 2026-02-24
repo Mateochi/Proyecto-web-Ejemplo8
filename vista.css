@@ -34,11 +34,46 @@ body {
     background-attachment: fixed;
 }
 
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate {
+    animation: fadeInUp 0.8s ease-out forwards;
+    opacity: 0;
+}
+
 header {
-    background-color: #333;
+    background: linear-gradient(135deg, var(--primary-color), var(--primary-hover));
     color: white;
-    padding: 20px;
+    padding: 3rem 2rem;
     text-align: center;
+    animation: fadeInUp 1s ease-out forwards;
+}
+
+section {
+    margin-bottom: 2rem;
+    animation: fadeInUp 0.8s ease-out forwards;
+}
+
+section:nth-child(1) {
+    animation-delay: 0.2s;
+}
+
+section:nth-child(2) {
+    animation-delay: 0.4s;
+}
+
+section:nth-child(3) {
+    animation-delay: 0.6s;
 }
 
 .container {
